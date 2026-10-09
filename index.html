@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div  class="logo"> 
+                <img src="./IMAGES/GHIPSS-removebg.png" alt="GHIPSS Logo" width="447" height="447" class="logo-image"> 
+                <span class="logo-text">GHIPSS</span> 
+            </div>
+        </header>
+        <main class="main-content">
+            <div class="login-container">
+                <h1 class="login-text">Login</h1>
+                <p class="login-subtext">Welcome back! Please enter your credentials to log in.</p>
+                <form class = "form-container" method="POST" >
+                    <div class ="field">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" placeholder="janedoe@gmail.com" id="email" name="email" required>
+                    </div>
+                    
+                    <div class = "field">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" placeholder="Enter your password" id="password" name="password" required>
+                    </div>
+                    <p class="forgot-password"><a href="#">Forgot Password?</a></p>
+
+                    
+                    <button type="submit" class="submit-btn">Log In</button>
+                </form>
+            </div>
+
+            <div class="image-container">
+               <img src="./IMAGES/Hero Image.webp" alt="illustion" width="1200" height="896" class="illustion-image">
+            </div>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2024 GHIPSS. All rights reserved.</p>
+        </footer>
+
+
+    </body>
+</html>
+
