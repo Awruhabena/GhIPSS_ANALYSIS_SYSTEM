@@ -26,9 +26,8 @@ body {
     background-color: var(--surface);
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    
+   
 }
 
 .logo {
@@ -55,8 +54,7 @@ body {
     display: flex;
     align-items: center;
     padding-left: 80px;
-    
-    
+      
 }
 
 .login-container {
@@ -65,7 +63,6 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 400px;
-    margin: 20px auto;
     flex: 3;
   
 }
@@ -90,14 +87,14 @@ body {
   height: auto;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
 
 }
 
 .form-label {
     font-size: 14px;
     color: var(--text-body);
-    font-weight: 600;
+    font-weight: 600px;
       
 }
 
@@ -105,7 +102,7 @@ body {
 .field input{
     width: 100%;
     padding: 2px;
-    border-bottom: 1px solid var(--border);
+    border-bottom: 2px solid var(--border);
     border-radius: 4px;
     border: none;
     border-bottom: 2px solid var(--primary);
@@ -123,12 +120,10 @@ body {
 .forgot-password {
     font-size: 14px;
     color: var(--primary);
-    text-decoration: none;
     text-align: right;
     margin-top: 10px;
 }
 .forgot-password:hover {
-    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -140,8 +135,8 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
-    border-radius: 4px;
-    margin-top: 20px;
+    border-radius: 8px;
+    
 
 }
 
