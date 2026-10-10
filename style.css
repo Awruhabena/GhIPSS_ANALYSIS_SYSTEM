@@ -23,8 +23,7 @@ body {
 }   
 
 .header {
-    background-color: var(--surface);
-    padding: 10px 20px;
+    background-color: var(--surface); 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
    
@@ -53,7 +52,8 @@ body {
 .main-content {
     display: flex;
     align-items: center;
-    padding-left: 80px;
+    padding: 50px;
+    
       
 }
 
@@ -66,6 +66,7 @@ body {
     flex: 3;
   
 }
+
 
 
 .login-text {
@@ -102,7 +103,6 @@ body {
 .field input{
     width: 100%;
     padding: 2px;
-    border-bottom: 2px solid var(--border);
     border-radius: 4px;
     border: none;
     border-bottom: 2px solid var(--primary);
@@ -111,11 +111,21 @@ body {
 }
 .field input:focus {
     border-bottom: 3px solid var(--primary-dark);
-   
+    
 }
 .field input:focus-visible {
     outline: none;
+
 }
+
+.error-message {
+    color: var(--error);
+    font-size: 12px;
+    margin-top: 4px;
+    
+}
+
+
 
 .forgot-password {
     font-size: 14px;
@@ -150,6 +160,14 @@ body {
     align-items: center;
     flex: 2;
 }
+@media (max-width:780px){
+    .image-container{
+        display : none;
+        
+    
+    }
+}
+
 
 .illustion-image {
     max-width: 100%;
