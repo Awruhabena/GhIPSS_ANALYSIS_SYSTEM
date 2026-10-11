@@ -21,5 +21,5 @@ function handleSubmit(event) {
     console.log('Email:', email.value);
     console.log('Password:', password.value);
 
-}
+} 
 submitButton.addEventListener('click', handleSubmit);
